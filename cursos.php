@@ -1,4 +1,5 @@
 <?php
+// Endpoint JSON del autocompletado: devuelve hasta 15 cursos que comienzan con el texto buscado.
 session_start();
 header('Content-Type: application/json; charset=utf-8');
 if (!isset($_SESSION['id_usuario'])) {
