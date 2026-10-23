@@ -1,0 +1,23 @@
+/* Solo la pantalla Nuevo. Conserva el tema de diseno.css. */
+.pagina-nuevo .intro-nuevo{color:#716b8a;margin-top:-12px;margin-bottom:26px}
+.pagina-nuevo #form-alumno{max-width:790px;padding:35px 42px}
+.pagina-nuevo .campo{display:grid;grid-template-columns:125px minmax(0,1fr);gap:16px;align-items:start;margin-bottom:17px}
+.pagina-nuevo .campo label{padding-top:12px;font-weight:600;color:#514464;font-size:14px;margin:0}
+.pagina-nuevo .campo input,.pagina-nuevo .campo textarea{margin:0;max-width:420px}
+.pagina-nuevo .campo textarea{min-height:105px}
+.pagina-nuevo .seccion-cursos{margin-top:29px;padding-top:25px;border-top:1px solid #e5dff0}
+.pagina-nuevo .cabecera-cursos{display:flex;gap:18px;align-items:center;margin-bottom:10px}
+.pagina-nuevo .cabecera-cursos h2{font-size:17px;font-weight:700;margin:0;color:#382451}
+.pagina-nuevo #addCurso{margin:0;padding:2px 15px;font-size:24px;line-height:1.5}
+.pagina-nuevo .ayuda-cursos{font-size:12px;font-weight:400;color:#716880;max-width:540px;margin-bottom:20px}
+.pagina-nuevo #curso_fields>.fila-curso{padding:21px 20px 6px;background:#f7f3fd;border-radius:12px;border:1px solid #e7dcf5;border-left:4px solid #a280e6;margin:16px 0}
+.pagina-nuevo .anio-controles{display:flex;gap:14px;align-items:center}
+.pagina-nuevo .anio-controles input{width:130px;flex:0 1 130px}
+.pagina-nuevo .quitar-curso{padding:5px 17px;background:#ffe5ed;color:#a73051;font-size:23px;box-shadow:none;margin:0}
+.pagina-nuevo #estado-cursos{font-size:13px;color:#665276;font-weight:400;margin:10px 0}
+.pagina-nuevo .acciones-nuevo{display:flex;gap:20px;align-items:center;border-top:1px solid #ece6f3;padding-top:25px;margin-top:25px}
+.pagina-nuevo .acciones-nuevo input{margin:0;min-width:125px}
+.pagina-nuevo .acciones-nuevo a{border:1px solid #dcd1ed;padding:10px 22px;border-radius:9px;margin:0;background:white}
+.pagina-nuevo button:disabled{opacity:.5;cursor:not-allowed}
+.ui-autocomplete{max-height:230px;overflow-y:auto;overflow-x:hidden;z-index:1000!important}
+@media(max-width:600px){.pagina-nuevo #form-alumno{padding:24px 18px}.pagina-nuevo .campo{grid-template-columns:1fr;gap:6px}.pagina-nuevo .campo label{padding:0}.pagina-nuevo .campo input,.pagina-nuevo .campo textarea{max-width:none}.pagina-nuevo .cabecera-cursos h2{font-size:16px}.pagina-nuevo #curso_fields>.fila-curso{padding:17px 14px 4px}}
