@@ -1,12 +1,5 @@
 <?php
-/**
- * MÓDULO EDUCACIÓN - CRUD académico.
- * GET ?id_alumno=... lista y ofrece formulario de alta.
- * GET ?id_alumno=...&editar=... carga un estudio para editar.
- * POST accion=guardar crea o actualiza mediante consultas preparadas.
- * POST accion=eliminar borra un registro con protección CSRF.
- * Las acciones que alteran datos requieren una sesión iniciada.
- */
+
 require_once __DIR__ . '/db.php';
 session_start();
 require_once __DIR__ . '/partials/layout.php';
